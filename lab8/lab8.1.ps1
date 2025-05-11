@@ -1,4 +1,11 @@
-﻿# pobieranie waluty od uzytkownika
+﻿<# 
+    Napisz skrypt, który pobierze aktualny kurs podanej na wejściu waluty
+oraz wyświetli kurs z ostatnich 5 dni. Następnie obliczy różnicę między
+każdym dniem.
+
+#>
+
+# pobieranie waluty od uzytkownika
 $Waluta = Read-Host "Podaj walutę (np. USD, EUR)"
 
 # czy dzien jest roobczy czy nie
